@@ -83,23 +83,51 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(178, 32, 32);
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
 
 .didILetter {
 }
 
 .didDTwoLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(178, 32, 32);
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
+}
+
 
 /* THE word */
 
 .theTLetter {
+  font-size: 60px;
+  color: rgb(230, 255, 9);
+  text-transform: uppercase;
+  font-family: 'Merienda', sans-serif;
 }
 
 .theHLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgoldenrod;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', sans-serif;
 }
 
 .theELetter {
+    font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 
 /* FRONT-END word */
@@ -120,19 +148,43 @@ body {
 }
 
 .frontendELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 
 .frontendNTwoLetter {
 }
 
 .frontendDLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(178, 32, 32);
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
+
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(178, 32, 32);
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
+
 .developerELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 .developerVLetter {
 }
@@ -145,6 +197,12 @@ body {
 .developerPLetter {
 }
 .developerEThreeLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 .developerRLetter {
 }
@@ -158,6 +216,12 @@ body {
 .takeKLetter {
 }
 .takeELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 
 /* UP word */
@@ -176,8 +240,21 @@ body {
 .gardeningRLetter {
 }
 .gardeningDLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(178, 32, 32);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Piazolla', sans-serif;
 }
+
 .gardeningELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 .gardeningNLetter {
 }
@@ -193,6 +270,12 @@ body {
 .becauseBLetter {
 }
 .becauseELetter {
+    font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 .becauseCLetter {
 }
@@ -210,8 +293,20 @@ body {
 .theyTLetter {
 }
 .theyHLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgoldenrod;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', sans-serif;
 }
 .theyELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 .theyYLetter {
 }
@@ -227,8 +322,20 @@ body {
 .wantedTLetter {
 }
 .wantedELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 .wantedDLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(178, 32, 32);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Piazolla', sans-serif;
 }
 
 /* TO word */
@@ -253,6 +360,12 @@ body {
 .improveVLetter {
 }
 .improveELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
 
 /* THEIR word */
@@ -260,9 +373,22 @@ body {
 .theirTLetter {
 }
 .theirHLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgoldenrod;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', sans-serif;
 }
 .theirELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(121, 11, 184);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
 }
+
 .theirILetter {
 }
 .theirRLetter {
