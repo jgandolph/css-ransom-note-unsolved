@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&effect=font-effect-fire');
 
 * {
   padding: 0;
@@ -51,6 +52,8 @@ body {
   border: 6px solid grey;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.8s ease-in-out;
+
+
 }
 
 .word > span:nth-of-type(even) {
@@ -64,7 +67,7 @@ body {
 }
 
 
-.word :nth-of-type(odd) {
+.word > span:nth-of-type(odd) {
   color: rgb(87, 21, 241);
   font-family: 'Rancho', cursive;
   font-size: 70px;
@@ -73,33 +76,26 @@ body {
   background-color: none;
   background: none;
 }
+
+.word > span:nth-of-type(4n+1) {
+  color: goldenrod;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  text-transform: lowercase;
+  background-color: none;
+  background: none;
+}
 /* Sample CSS for the WHY word */
 
 .whyWLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
 }
 
 .whyHLetter {
-  font-size: 30px;
-  font-weight: bold;
-  color: darkgoldenrod;
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+
 }
 
 .whyYLetter {
-  font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+
 }
 
 /* DID word */
